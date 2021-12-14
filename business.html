@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+          <title>Emre Unver</title>     
+            <meta charset="UTF-8">  
+            <script src="https://kit.fontawesome.com/b748da6f1a.js" crossorigin="anonymous"></script>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="style.css" rel="stylesheet">
+        </head>
+
+        <body> 
+            <header> 
+                <nav>
+                  <ul>
+                    <li><a class="bar" href="about.html">About</a></li>
+                    <li><a class="bar" href="gallery.html">Gallery</a></li>
+                    <li class="home home-trigger"><a href="index.html"> <i class="fas fa-home"></i></a></li>
+                    <li><a class="bar" href="business.html">Business</a></li>
+                    <li><a class="bar" href="contact.html">Contact</a></li> 
+                  </ul>
+                </nav>
+              </header>
+<div id="businesstext">
+    I have 7-year front desk experience in Is Investment.
+    Throughout my career, I worked as a part of the derivative team of the company, where our mandate was
+    market making in option and warrant markets in Borsa Istanbul. Anyone in the sector knows that the famous
+    Black-Scholes model is the core formula for pricing/hedging of options, which is why I put a
+    calculator to show a little piece of my portfolio. Those who are unfamiliar with the model could watch 
+    the video first before tinkering the calculator.
+    I would love to share ideas, improve collaboration and make fancy things together.
+    For those of you are interested in collaboration, please visit contact page to reach out to me.
+</div>
+  
+    <div id="bsvideo">
+      <iframe id ="video" class="framedim"  src="https://www.youtube.com/embed/pr-u4LCFYEY">
+      </iframe>
+  </div>
+    <div id="bscalc">
+    <form id="bsform" name="BSmodel" novalidate onsubmit="return BlackScholes();">
+        <label> Put/Call Flag: </label> <br>
+        <input placeholder="P or C" onclick="this.placeholder='';" type="text" name="flag" id="flag" required autofocus> <br>
+        <label> Stock Price: </label><br>
+        <input type="number" name="stock" id="stock" required> <br>
+        <label> Strike Price: </label><br>
+        <input type="text" name="strike" id="strike" required> <br>
+        <label> Maturity in years: </label><br>
+        <input placeholder="Eg. Enter 0.5 for 6 months" onclick="this.placeholder='';" type="text" name="maturity" id="maturity" required> <br>
+        <label> Interest Rate: </label><br>
+        <input placeholder="Eg. enter 0.05 for 5%" onclick="this.placeholder='';" type="text" name="interest" id="interest" required> <br>
+        <label> Volatility: </label><br>
+        <input placeholder="Eg, enter 0.3 for 30%" onclick="this.placeholder='';" type="text" name="vol" id="vol" required><br> 
+        <p><input class= "bttn" type="submit" name="submitButton"
+            value="Submit"></p>
+    </form>
+    
+    </div>
+        
+    <script src="script.js"></script>
+  </body>
+</html>

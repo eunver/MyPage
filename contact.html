@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <title>Contact me</title>
+            <meta charset="UTF-8">       
+            <script src="https://kit.fontawesome.com/b748da6f1a.js" crossorigin="anonymous"></script>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="style.css" rel="stylesheet">
+        </head>
+
+        <body>
+          <header> 
+            <nav>
+              <ul>
+                <li><a class="bar" href="about.html">About</a></li>
+                <li><a class="bar" href="gallery.html">Gallery</a></li>
+                <li id="home-trigger" class="home home-trigger"><a href="index.html"> <i class="fas fa-home"></i></a></li>
+                <li><a class="bar" href="business.html">Business</a></li>
+                <li><a class="bar" href="contact.html">Contact</a></li> 
+                
+              </ul>
+            </nav>
+
+          </header>
+                <h1>
+                    Drop a Message!
+                </h1>
+                <form id="form" name="contactform" novalidate onsubmit="return validator();">
+                    <label> First and Last name (required): </label> <br>
+                    <input placeholder="John Doe" onclick="this.placeholder='';"
+                    type="text" name="name" id="name" class="formcontent" required autofocus> <br><br>
+        
+                    <label> Email (required): </label><br>
+                    <input placeholder="JohnDoe@example.com" onclick="this.placeholder='';" 
+                    type="text" name="email" id="email" class="formcontent" required><br> <br>
+                    <textarea class="formcontent" name="message" placeholder="Write something.." style="height:150px"></textarea><br><br>
+                     <p><i class="fa fa-paper-plane" aria-hidden="true"></i><input class= "bttn" type="submit" name="submitButton"
+                      value="Send"></p>
+            </form>
+            <div id="social">
+                <a href="https://www.linkedin.com/in/emre-%C3%BCnver-84256137/" class="fab fa-linkedin" target="_blank"> </a>
+                <a href="https://www.instagram.com/eunvr/" class="fab fa-instagram" target="_blank"></a>
+                <a href="https://twitter.com/emrephi" class="fab fa-twitter" target="_blank"></a>
+                <a href="https://github.com/eunver" class="fab fa-github" target="_blank"></a>
+            </div>
+            <script src="script.js"></script>
+ 
+        </body>
+
+ 
+
+ 
+ 
+  </html>
