@@ -47,7 +47,7 @@ body {
     font-size: 1rem;
     color: white;
     text-align: center;
-    padding: 14px 30px;
+    padding: 2vw 30px;
     transition: background 1.25s, box-shadow 1.45s;
   }
   .bar:hover {
@@ -109,6 +109,7 @@ body {
 #main{
     width: 150%;
     height: auto;
+    padding-right: 150px;
 }
 
 @media (min-width: 625px) {
