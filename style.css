@@ -107,7 +107,6 @@ body {
     
     color: white;}
 #main{
-
     width: 150%;
     height: auto;
 }
@@ -192,7 +191,7 @@ button:hover{
 }
 div.slide-left {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  font-size: 2vw;
+  font-size: 4vw;
   color: white;
   overflow:hidden;
   width: 80%;
