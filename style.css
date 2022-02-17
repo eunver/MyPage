@@ -181,6 +181,11 @@ button:hover{
   position:fixed;
   bottom: 0px;
 }
+#indexsocial{
+  text-align: center;
+  margin: auto;
+
+}
 
 .cont{
   position: relative;
